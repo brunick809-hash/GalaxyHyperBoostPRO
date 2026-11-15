@@ -1,0 +1,19 @@
+GALAXY HYPERBOOST PRO - projeto Android nativo inicial
+
+Este projeto inclui uma automação GitHub Actions para compilar o APK na nuvem.
+
+COMO GERAR O APK PELO CELULAR:
+1. Entre em https://github.com e crie um repositório novo, por exemplo GalaxyHyperBoostPRO.
+2. Deixe o repositório como Private ou Public. Não publique senhas, tokens ou dados pessoais.
+3. Envie todos os arquivos e pastas deste ZIP para a raiz do repositório. É importante incluir a pasta oculta .github/workflows e o arquivo android.yml dentro dela.
+4. Abra a aba Actions do repositório.
+5. Se aparecer um aviso para permitir workflows, confirme.
+6. Abra "Build Galaxy HyperBoost PRO APK" e toque em "Run workflow". Também pode iniciar automaticamente ao enviar arquivos para a branch main.
+7. Quando terminar com sucesso, abra a execução e baixe o artifact "Galaxy-HyperBoost-PRO-debug".
+8. Extraia o ZIP do artifact. O APK será app-debug.apk.
+
+LIMITAÇÕES:
+- O APK é uma compilação de depuração, não uma versão assinada para publicação.
+- O app fornece um painel flutuante simples e atalhos. Não mede FPS real de outros jogos nem altera limites de CPU/GPU.
+- O Android pedirá permissão especial de "Exibir sobre outros apps" para mostrar o painel.
+- Não compartilhe senha, códigos de autenticação ou tokens do GitHub.
